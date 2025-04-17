@@ -1,60 +1,116 @@
-# Micron 資料科學家求職網站
+# Micron Data Scientist Portfolio Website
 
-這是一個使用 Angular 17 開發的個人專業作品集網站，專為資料科學家角色求職設計。
+A professional portfolio website built with Angular 17, designed to showcase my skills and experience as a Data Scientist for job applications.
 
-## 專案概述
+## Project Overview
 
-此網站展示了我的專業技能、工作經驗、教育背景與相關專案，特別著重於資料科學與分析領域的專業能力。網站採用現代化設計，支援行動裝置使用，並整合了多種前端技術。
+This website demonstrates my professional skills, work experience, educational background, and relevant projects, with a special focus on data science and analytics capabilities. The site features a modern design, mobile responsiveness, and integration of various frontend technologies.
 
-## 技術棧
+## Technology Stack
 
-- **前端框架**：Angular 17.3.0
-- **UI 元件**：Angular Material, Bootstrap 5
-- **樣式**：SCSS
-- **圖示**：Font Awesome
-- **路由**：Angular Router
+- **Frontend Framework**: Angular 17.3.0
+- **UI Components**: Angular Material, Bootstrap 5
+- **Styling**: SCSS
+- **Icons**: Font Awesome
+- **Routing**: Angular Router
 
-## 主要功能
+## Development Process
 
-網站包含以下主要頁面：
+The website was developed through the following phases:
 
-- **首頁**：個人簡介與網站概述
-- **關於我**：詳細的個人背景介紹
-- **教育背景**：學歷與相關培訓經歷
-- **專業經驗**：工作經歷與成就
-- **技能**：技術能力與專業技能
-- **專案展示**：完成的相關專案
-- **Micron 專區**：特別為 Micron 公司求職準備的內容
+1. **Planning & Design**
+   - Defined content structure and navigation logic
+   - Selected appropriate technology stack
+   - Planned user experience and interaction design
 
-## 開發與部署
+2. **Project Setup**
+   - Initialized Angular project with CLI: `ng new micron-portfolio`
+   - Installed necessary packages: Bootstrap, Font Awesome
+   - Configured routing and project structure
 
-### 本地開發
+3. **Component Architecture**
+   - Created page-level components (Home, Projects, About, Education, etc.)
+   - Designed shared components (Navigation, Footer)
+   - Implemented responsive layouts
+
+4. **Styling & Interaction**
+   - Designed and implemented SCSS styling system
+   - Created animations and transition effects
+   - Integrated Bootstrap components
+
+5. **Responsive Design**
+   - Used Bootstrap's grid system
+   - Implemented custom media queries
+   - Created adaptive layouts for all screen sizes
+
+6. **Performance Optimization**
+   - Minified CSS and JavaScript
+   - Optimized image sizes and formats
+   - Reduced DOM manipulations for better performance
+
+7. **Testing & Deployment**
+   - Conducted cross-browser testing
+   - Verified responsive behavior
+   - Built production version and deployed
+
+## Project Structure
+
+```
+micron-portfolio/
+├── src/
+│   ├── app/
+│   │   ├── components/              # Shared components
+│   │   ├── pages/                   # Page components
+│   │   │   ├── home/                # Home page
+│   │   │   ├── about/               # About website page
+│   │   │   ├── education/           # Education background
+│   │   │   ├── experience/          # Work experience
+│   │   │   ├── micron/              # Micron specific page
+│   │   │   ├── projects/            # Projects showcase
+│   │   │   └── skills/              # Skills showcase
+│   │   ├── shared/                  # Shared resources
+│   │   ├── app.routes.ts            # Application routing
+│   │   └── app.config.ts            # Application config
+│   ├── assets/                      # Static resources
+│   └── styles.scss                  # Global styles
+└── angular.json                     # Angular configuration
+```
+
+## Special Features
+
+- **Angular Standalone Components**: Built using Angular 17's standalone architecture
+- **Responsive Design**: Works on all devices from mobile to desktop
+- **Smooth Animation Effects**: CSS animations enhance user experience
+- **SEO Optimization**: Proper meta tags and semantic HTML structure
+- **Performance Optimization**: Fast loading and smooth interactions
+
+## Local Development
 
 ```bash
-# 安裝依賴
+# Install dependencies
 npm install
 
-# 啟動開發伺服器
+# Start development server
 npm start
 ```
 
-訪問 `http://localhost:4200/` 查看應用程式
+Visit `http://localhost:4200/` to view the application
 
-### 建置專案
+## Build Project
 
 ```bash
 npm run build
 ```
 
-建置完成的檔案將存放在 `dist/` 目錄中
+Build files will be stored in the `dist/` directory
 
-## 聯絡方式
+## Contact Information
 
-如需更多資訊或有任何問題，請透過以下方式聯絡：
+For more information or questions, please contact:
 
 - Email: [lichungtsai611@gmail.com](mailto:lichungtsai611@gmail.com)
 - GitHub: [lichungtsai611](https://github.com/lichungtsai611)
 
 ---
 
-© 2024 Li-Chung Tsai. 保留所有權利。
+© 2024 Li-Chung Tsai. All rights reserved.
